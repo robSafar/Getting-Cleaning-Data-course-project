@@ -2,3 +2,5 @@ rawData/**
 .Rhistory
 .Rproj.user
 *.Rproj
+*.RData
+*.csv
