@@ -94,4 +94,4 @@ Position | Label | Description
 ### Summarizing
 
 - Exclude "partition" column from summary data.
-- Grouping by activity & subject columns, apply the `summarize_all` command to get the averages for all remaining variables in the above clean dataset.
+- Grouping by "activity" & "subject" columns, apply the `summarize_all` command to get the averages for all remaining variables in the above clean dataset.
