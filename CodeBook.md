@@ -88,10 +88,10 @@ Position | Label | Description
 	- "activity" from `./rawData/test/y_test.txt`
 	- filtered variables from `./rawData/test/X_test.txt`.
 - Bind the "test" and "train" datasets together.
-- Apply labels to the new, merged data frame, referring to `./rawData/features.txt` for the `X*.txt` variables.
+- Apply labels to the new, merged data frame, referring to `./rawData/features.txt` for the `X_test.txt` variables.
 - Ensure first three columns are factor class, applying levels to "activity" from `./rawData/activity_labels.txt`.
 
 ### Summarizing
 
-- Exclude partition column from summary data.
+- Exclude "partition" column from summary data.
 - Grouping by activity & subject columns, apply the `summarize_all` command to get the averages for all remaining variables in the above clean dataset.
